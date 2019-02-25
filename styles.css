@@ -1,0 +1,45 @@
+html{
+    font-size:10px;
+}
+
+body{
+    background: #00ffff;
+    font-family: 'helvetica neue';
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.title{
+    text-align: center;
+    margin:50px;
+    padding:15px;
+}
+.words{
+    font-size: 20px; 
+    max-width: 500px;
+    margin:55px auto;
+    background: whitesmoke;
+    border-radius: 50px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    padding: 1rem 2rem 1rem 5rem;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(14%, #fff)) 0 5px;
+    background-size: 100% 4rem;
+    position: relative;
+    line-height: 3rem;
+}
+
+p{
+    margin: 0 0 3rem;
+}
+
+.words:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    top:0;
+    left: 40px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #e44545;
+}
+
